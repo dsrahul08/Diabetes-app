@@ -9,7 +9,7 @@ html_temp = """
 		<h4 style="color:white;text-align:center;">One of the critical diseases</h4>
 		</div>
 		"""
-st.image("images/logo.png")
+st.image("logo.png")
 def main():
     
 	# st.title("ML Web App with Streamlit")

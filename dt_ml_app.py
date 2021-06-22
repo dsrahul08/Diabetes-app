@@ -21,7 +21,7 @@ def load_model(model_file):
 
 def run_dt_app():
 	st.subheader("Machine Learning Section")
-	st.image("images/dtplot.png")
+	st.image("dtplot.png")
 	loaded_model = load_model("models/decision_tree_model_diabetes_22_06_2020.pkl")
     
 	# Layout
