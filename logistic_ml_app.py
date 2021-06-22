@@ -21,7 +21,7 @@ def load_model(model_file):
 
 def run_logistic_app():
 	st.subheader("Machine Learning Section")
-	loaded_model = load_model("models/logistic_regression_model_diabetes_22_06_2021.pkl")
+	loaded_model = load_model("logistic_regression_model_diabetes_22_06_2021.pkl")
     
 	# Layout
 	col1,col2 = st.beta_columns(2)
